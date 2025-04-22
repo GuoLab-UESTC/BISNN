@@ -5,7 +5,7 @@
 Spiking neural networks (SNNs), known for their rich spatio-temporal dynamics, have recently gained considerable attention in EEG-based emotion recognition. However, conventional model training approaches often fail to fully exploit the capabilities of SNNs, posing challenges for effective EEG data analysis. In this work, we propose a novel bioinformation-fused SNN (BISNN) model to enhance EEG-based emotion recognition. The BISNN model incorporates biologically plausible intrinsic parameters into spiking neurons and is initialized with a structurally equivalent pre-trained ANN model. By constructing a bio-information-fused loss function, the BISNN model enables simultaneous training under dual constraints. Extensive experiments on benchmark EEG-based emotion datasets demonstrate that the BISNN model achieves competitive performance compared to state-of-the-art methods. Additionally, ablation studies investigating various components further elucidate the mechanisms underlying the model’s effectiveness and evolution, aligning well with previous findings.
 
 ## BISNN
-![RTS_teaser_figure](image/Picture1.png)
+![RTS_teaser_figure](BISNN.jpg)
 Fig. 1. Overview of the training process for the proposed BISNN method in EEG-based emotion recognition. Preprocessed EEG signals are divided into T slices to reduce temporal feature complexity. The pretrained weights from an ANN model, enriched with information based knowledge, are transferred to a homogeneous BISNN model composed of bio-inspired neurons. During the BISNN training phase, the loss function incorporates both info_label and hard_label to further enhance bio-information learning.
 
 ## Requirements
